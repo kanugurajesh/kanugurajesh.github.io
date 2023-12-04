@@ -12,3 +12,4 @@
 - Web Development
 - Mobile App Development
 - Python Programming
+- Web3 Development
