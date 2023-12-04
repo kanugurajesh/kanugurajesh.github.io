@@ -7,7 +7,7 @@ const Intro = () => {
         DevShare
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        A blog where <a href="https://rajeshportfolio.me">I</a> share my thoughts on web development and software engineering.
+        A blog where <a href="https://rajeshportfolio.me" className='font-bold underline underline-offset-6' target='_blank'>I</a> share my thoughts on <b>web</b>, <b>mobile</b> and <b>python</b> development.
       </h4>
     </section>
   )
