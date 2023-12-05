@@ -1,10 +1,10 @@
 ---
 title: 'How to get started with web development'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'Start with the basics: learn HTML for structure, CSS for styling, and JavaScript for interactivity. Understand responsive design and version control using Git. Choose a text editor like VSCode. Explore frameworks and libraries for efficiency. Engage in projects and seek guidance from online resources to refine your skills.'
 coverImage: '/assets/blog/hello-world/cover.jpg'
 date: '2023-12-05T05:35:07.322Z'
 author:
-  name: Tim Neutkens
+  name: Kanugu Rajesh
   picture: '/assets/blog/authors/tim.jpeg'
 ogImage:
   url: '/assets/blog/hello-world/cover.jpg'
