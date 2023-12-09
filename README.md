@@ -10,6 +10,6 @@
 ## Topics Covered
 
 - Web Development
-- Mobile App Development
-- Python Programming
 - Web3 Development
+- Python Programming
+- Mobile App Development (minor)
