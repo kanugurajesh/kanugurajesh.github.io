@@ -1,13 +1,13 @@
 ---
-title: 'How to get started with web development'
+title: 'How to get started with mern'
 excerpt: 'Start with the basics: learn HTML for structure, CSS for styling, and JavaScript for interactivity. Understand responsive design and version control using Git. Choose a text editor like VSCode. Explore frameworks and libraries for efficiency. Engage in projects and seek guidance from online resources to refine your skills.'
-coverImage: '/assets/blog/web-development/cover.jpg'
+coverImage: '/assets/blog/web-development/cover.png'
 date: '2023-12-05T05:35:07.322Z'
 author:
   name: Kanugu Rajesh
   picture: '/assets/blog/authors/rajesh.jpg'
 ogImage:
-  url: '/assets/blog/web-development/cover.jpg'
+  url: '/assets/blog/web-development/cover.png'
 ---
 
 data Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
