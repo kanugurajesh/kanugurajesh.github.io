@@ -2,7 +2,6 @@ import Container from './container'
 import { EXAMPLE_PATH } from '../lib/constants'
 import { LinkedIn_URL } from '../lib/constants'
 import { GitHub_URL } from '../lib/constants'
-import styles from '../styles/footer.module.css'
 import Image from 'next/image'
 
 const Footer = () => {
