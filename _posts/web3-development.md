@@ -1,5 +1,5 @@
 ---
-title: 'How to get started with web3 development'
+title: 'How to get started with Web3 Development'
 excerpt: 'Start with the basics: learn HTML for structure, CSS for styling, and JavaScript for interactivity. Understand responsive design and version control using Git. Choose a text editor like VSCode. Explore frameworks and libraries for efficiency. Engage in projects and seek guidance from online resources to refine your skills.'
 coverImage: '/assets/blog/web3/cover.png'
 date: '2023-12-05T05:35:07.322Z'
