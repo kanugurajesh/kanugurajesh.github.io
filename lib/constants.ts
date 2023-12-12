@@ -1,7 +1,7 @@
 export const EXAMPLE_PATH = 'blog-starter'
 export const CMS_NAME = 'Markdown'
 export const HOME_OG_IMAGE_URL =
-  'https://og-image.vercel.app/Next.js%20Blog%20Starter%20Example.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg'
+  'https://ik.imagekit.io/hbzknb1hm/rajesh1.jpeg?updatedAt=1687880887870'
 export const LinkedIn_URL = 'https://www.linkedin.com/in/rajesh-kanugu-aba8a3254/'
 export const GitHub_URL = 'https://github.com/kanugurajesh'
 export const Blog_Name = 'DevShare'
