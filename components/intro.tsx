@@ -7,7 +7,7 @@ const Intro = () => {
         {Blog_Name}
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Know <a href="https://rajeshportfolio.me" className='font-bold underline underline-offset-6' target='_blank'>my</a> thoughts on <b>web</b>, <b>web3</b> and <b>python</b> development.
+        Know <a href="https://rajeshportfolio.me" className='font-bold underline underline-offset-6' target='_blank'>my</a> thoughts on <b>web</b>, <b>web3</b>, <b>Azure</b> and <b>python</b> development.
       </h4>
     </section>
   )
