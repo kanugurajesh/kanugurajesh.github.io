@@ -1,6 +1,6 @@
 ---
 title: 'Deploying a Website to Azure Static Web Apps'
-excerpt: 'Azure Static Web Apps is a cloud platform provided by Microsoft Azure that simplifies the process of building and deploying modern web applications or static content along with serverless APIs. This platform is designed to streamline the development and deployment workflow, making it easier for developers to create and host their web applications.'
+excerpt: 'Azure Static Web Apps is a cloud platform provided by Microsoft Azure that simplifies the process of building and deploying modern web applications or static content along with serverless APIs.'
 coverImage: '/assets/blog/Azure/cover.png'
 date: '2023-12-12T05:35:07.322Z'
 author:
