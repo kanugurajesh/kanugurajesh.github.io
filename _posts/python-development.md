@@ -39,7 +39,7 @@ name = "John"
 height = 1.75
 ```
 
-## Control Flow
+### Control Flow
 
 Explore control flow structures such as if, else, and elif statements to make decisions in your code.
 
@@ -52,7 +52,7 @@ else:
 
 ```
 
-## Loops
+### Loops
 
 Master for and while loops for iterative tasks.
 
@@ -63,7 +63,7 @@ for i in range(5):
 
 ```
 
-## Functions
+### Functions
 
 Define and call functions to modularize your code.
 
