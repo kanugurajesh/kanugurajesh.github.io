@@ -1,8 +1,8 @@
 ---
-title: 'How to get started with Azure'
-excerpt: 'Start with the basics: learn HTML for structure, CSS for styling, and JavaScript for interactivity. Understand responsive design and version control using Git. Choose a text editor like VSCode. Explore frameworks and libraries for efficiency. Engage in projects and seek guidance from online resources to refine your skills.'
+title: 'Deploying a Website to Azure Static Web Apps'
+excerpt: 'Azure Static Web Apps is a cloud platform provided by Microsoft Azure that simplifies the process of building and deploying modern web applications or static content along with serverless APIs. This platform is designed to streamline the development and deployment workflow, making it easier for developers to create and host their web applications.'
 coverImage: '/assets/blog/Azure/cover.png'
-date: '2023-12-05T05:35:07.322Z'
+date: '2023-12-12T05:35:07.322Z'
 author:
   name: Kanugu Rajesh
   picture: '/assets/blog/authors/rajesh.jpg'
@@ -10,10 +10,43 @@ ogImage:
   url: '/assets/blog/Azure/cover.png'
 ---
 
-data Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+## Prerequisites:
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+**1. Azure Account:** Make sure you have an active Azure account. If not, you can create one here.
 
-## Lorem Ipsum
+**2. GitHub Repository:** Your website's source code should be hosted on a GitHub repository.
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+**3. Azure CLI:** Install the Azure Command-Line Interface (CLI) if you haven't already. You can download it from here.
+
+## Steps:
+
+**1. Create a GitHub Repository:**
+If you don't have a GitHub repository for your website, create one and push your website's source code to it.
+
+**2. Set Up Azure Static Web Apps:**
+Go to the Azure Portal.
+
+Click on __Create a resource__ and search for __Static Web Apps__.
+
+Click on __Static Web Apps__ in the results and then click the __Create__ button.
+
+Fill in the required information, including your subscription, resource group, instance details, and build settings. Make sure to choose the GitHub repository that contains your website's source code.
+
+Click __Review + create__ and then __Create__ to deploy the Static Web App.
+
+**3. Configure Build Settings:**
+Azure Static Web Apps can automatically build and deploy your application. Ensure that the build settings are configured correctly. This usually involves specifying the build folder (e.g., dist or public) and the build script (e.g., npm install && npm run build for a Node.js app).
+
+**4. Review and Complete Deployment:**
+Review your settings and click __Review + create__ to ensure everything is correct. Click __Create__ to start the deployment process.
+
+**5. Wait for Deployment:**
+Azure will now deploy your Static Web App. This may take a few minutes. You can monitor the progress in the Azure Portal.
+
+**6. Access Your Website:**
+Once the deployment is complete, go to the Static Web App resource in the Azure Portal. Navigate to the __Settings__ tab and find the __URL__. This is the URL where your website is hosted.
+
+**7. Custom Domain (Optional):**
+If you have a custom domain, you can configure it in the __Custom domains__ section of your Static Web App in the Azure Portal.
+
+Congratulations! Your website is now deployed to Azure Static Web Apps. Any changes you push to your GitHub repository will automatically trigger a new deployment, making the process seamless.
