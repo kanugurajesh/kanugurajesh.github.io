@@ -11,15 +11,15 @@ export default function Contact() {
                 </div>
                 <div className="flex flex-col gap-5">
                     <span className="flex gap-5 align-center">
-                        <Image src="/assets/blog/icons/phone-contact.png" alt="phone" width={30} height={30} />
+                        <Image src="/assets/blog/icons/phone-contact.png" alt="phone" width={25} height={25} />
                         <p>+91 6281768263</p>
                     </span>
                     <span className="flex gap-5 align-center">
-                        <Image src="/assets/blog/icons/email.png" alt="email" width={30} height={30} />
+                        <Image src="/assets/blog/icons/email.png" alt="email" width={25} height={25} />
                         <p>kanugurajesh3@gmail.com</p>
                     </span>
                     <span className="flex gap-5 align-center">
-                        <Image src="/assets/blog/icons/instagram.png" alt="email" width={30} height={30} />
+                        <Image src="/assets/blog/icons/instagram.png" alt="email" width={25} height={25} />
                         <Link href="https://www.instagram.com/kanugurajesh/">
                             <p>kanugurajesh</p>
                         </Link>
