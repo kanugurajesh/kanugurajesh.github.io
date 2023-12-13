@@ -2,9 +2,13 @@ import Container from './container'
 import { EXAMPLE_PATH } from '../lib/constants'
 import { LinkedIn_URL } from '../lib/constants'
 import { GitHub_URL } from '../lib/constants'
+import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 
 const Footer = () => {
+
+  const router = useRouter();
+
   return (
     <footer className="bg-neutral-50 border-t border-neutral-200">
       <Container>
@@ -24,7 +28,9 @@ const Footer = () => {
               <Image src="/assets/blog/icons/github.png" alt="github" width={50} height={50} />
             </a>
             <a
-              href={LinkedIn_URL}
+              onClick={() => {
+                router.push("/contact")
+              }}
               className="bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors rounded-sm"
             >
               Contact Me
