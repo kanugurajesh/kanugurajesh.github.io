@@ -11,15 +11,15 @@ export default function Contact() {
                 </div>
                 <div className="flex flex-col gap-5">
                     <span className="flex gap-5 align-center">
-                        <Image src="/assets/blog/icons/phone-contact.png" alt="phone" width={25} height={25} />
+                        <Image src="/assets/blog/icons/phone-contact.png" className="hover:scale-110 transition ease-in-out" alt="phone" width={25} height={25} />
                         <p>+91 6281768263</p>
                     </span>
                     <span className="flex gap-5 align-center">
-                        <Image src="/assets/blog/icons/email.png" alt="email" width={25} height={25} />
+                        <Image src="/assets/blog/icons/email.png" className="hover:scale-110 transition ease-in-out" alt="email" width={25} height={25} />
                         <p>kanugurajesh3@gmail.com</p>
                     </span>
                     <span className="flex gap-5 align-center">
-                        <Image src="/assets/blog/icons/instagram.png" alt="email" width={25} height={25} />
+                        <Image src="/assets/blog/icons/instagram.png" className="hover:scale-110 transition ease-in-out" alt="email" width={25} height={25} />
                         <Link href="https://www.instagram.com/kanugurajesh/">
                             <p>kanugurajesh</p>
                         </Link>
@@ -54,6 +54,9 @@ export default function Contact() {
                     {/* @ts-ignore */}
                     <textarea name="" placeholder="Enter the message" id="textarea-input" cols="30" rows="10" className="border border-black border-2 h-40 rounded-md p-2 font-normal w-80">
                     </textarea>
+                </div>
+                <div>
+                    <button className="w-full font-bold bg-black hover:bg-white hover:text-black text-white px-5 py-3 rounded-md border border-2 transition ease-in-out">Send Message</button>
                 </div>
             </div>
         </div>
