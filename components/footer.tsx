@@ -31,7 +31,7 @@ const Footer = () => {
               onClick={() => {
                 router.push("/contact")
               }}
-              className="bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors rounded-sm"
+              className="bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors rounded-sm cursor-pointer"
             >
               Contact Me
             </a>
