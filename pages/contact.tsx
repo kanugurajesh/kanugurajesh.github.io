@@ -37,7 +37,7 @@ export default function Contact() {
                     </Link>
                 </div>
             </div>
-            <div className="flex flex-col justify-center gap-10 border h-3/4 p-10 rounded-2xl border-2">
+            <div className="flex flex-col justify-center gap-10 h-3/4">
                 <div className="flex flex-col gap-2">
                     <label htmlFor="text-input" className="font-bold">Name:</label>
                     <input type="text" id="text-input" className="border border-black border-2 h-10 rounded-md p-2 font-normal w-80" placeholder="Enter the name"/>
