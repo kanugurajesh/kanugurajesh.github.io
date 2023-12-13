@@ -6,7 +6,7 @@ export default function Contact() {
         <div className="w-screen h-screen text-extrabold flex justify-around items-center">
             <div className="flex flex-col justify-around gap-40 h-3/4">
                 <div className="flex flex-col gap-5">
-                    <h1 className="text-5xl font-black">Get a quote</h1>
+                    <h1 className="text-5xl font-black">Contact us</h1>
                     <p className="text-lg">Fill up the form and I will get back to you within 24 hours</p>
                 </div>
                 <div className="flex flex-col gap-5">
@@ -15,7 +15,7 @@ export default function Contact() {
                         <p>+91 6281768263</p>
                     </span>
                     <span className="flex gap-5 align-center">
-                        <Image src="/assets/blog/icons/email.png" className="hover:scale-110 transition ease-in-out" alt="email" width={25} height={25} />
+                        <Image src="/assets/blog/icons/gmail.png" className="hover:scale-110 transition ease-in-out" alt="email" width={25} height={25} />
                         <p>kanugurajesh3@gmail.com</p>
                     </span>
                     <span className="flex gap-5 align-center">
@@ -27,22 +27,22 @@ export default function Contact() {
                 </div>
                 <div className="flex gap-10">
                     <Link href="https://www.linkedin.com/in/rajesh-kanugu-aba8a3254/">
-                        <Image src="/assets/blog/icons/linkedin-contact.png" className="hover:scale-110 transition ease-in-out" alt="linkedin" width={30} height={30} />
+                        <Image src="/assets/blog/icons/linkedin-contact.png" className="hover:scale-110 transition ease-in-out" alt="linkedin" width={35} height={35} />
                     </Link>
                     <Link href="https://twitter.com/exploringengin1">
-                        <Image src="/assets/blog/icons/twitter.png" className="hover:scale-110 transition ease-in-out" alt="X" width={30} height={30} />
+                        <Image src="/assets/blog/icons/twitter.png" className="hover:scale-110 transition ease-in-out" alt="X" width={35} height={35} />
                     </Link>
                     <Link href="https://www.instagram.com/kanugurajesh/">
-                        <Image src="/assets/blog/icons/instagram-contact.png" className="hover:scale-110 transition ease-in-out" alt="github" width={30} height={30} />
+                        <Image src="/assets/blog/icons/instagram-contact.png" className="hover:scale-110 transition ease-in-out" alt="github" width={35} height={35} />
                     </Link>
                     <Link href="https://github.com/kanugurajesh/">
-                        <Image src="/assets/blog/icons/github-contact.png" className="hover:scale-110 transition ease-in-out" alt="github" width={30} height={30} />
+                        <Image src="/assets/blog/icons/github-contact.png" className="hover:scale-110 transition ease-in-out" alt="github" width={35} height={35} />
                     </Link>
                 </div>
             </div>
             <div className="flex flex-col justify-center gap-6 h-3/4">
                 <div className="flex justify-center">
-                    <Image src="/assets/blog/icons/customer-service.png" className="hover:scale-110 transition ease-in-out" alt="contact" width={80} height={80} />
+                    <Image src="/assets/blog/icons/customer-service.png" className="hover:scale-110 transition ease-in-out mb-2 mt-10" alt="contact" width={70} height={80} />
                 </div>
                 <div className="flex flex-col gap-2">
                     <label htmlFor="text-input" className="font-bold">Name:</label>
@@ -59,7 +59,7 @@ export default function Contact() {
                     </textarea>
                 </div>
                 <div>
-                    <button className="w-full font-bold bg-black hover:bg-white hover:text-black text-white px-5 py-3 rounded-md border border-2 transition ease-in-out">Send Message</button>
+                    <button className="w-full font-bold bg-black hover:bg-white hover:text-black text-white px-5 py-3 rounded-md border border-2 transition ease-in-out space-x-4">Send Message</button>
                 </div>
             </div>
         </div>
