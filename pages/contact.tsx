@@ -26,21 +26,24 @@ export default function Contact() {
                     </span>
                 </div>
                 <div className="flex gap-10">
-                    <Link href="https://www.instagram.com/kanugurajesh/">
+                    <Link href="https://www.linkedin.com/in/rajesh-kanugu-aba8a3254/">
                         <Image src="/assets/blog/icons/linkedin-contact.png" className="hover:scale-110 transition ease-in-out" alt="linkedin" width={30} height={30} />
                     </Link>
-                    <Link href="https://www.instagram.com/kanugurajesh/">
+                    <Link href="https://twitter.com/exploringengin1">
                         <Image src="/assets/blog/icons/twitter.png" className="hover:scale-110 transition ease-in-out" alt="X" width={30} height={30} />
                     </Link>
                     <Link href="https://www.instagram.com/kanugurajesh/">
-                        <Image src="/assets/blog/icons/instagram.png" className="hover:scale-110 transition ease-in-out" alt="github" width={30} height={30} />
+                        <Image src="/assets/blog/icons/instagram-contact.png" className="hover:scale-110 transition ease-in-out" alt="github" width={30} height={30} />
                     </Link>
-                    <Link href="https://www.instagram.com/kanugurajesh/">
+                    <Link href="https://github.com/kanugurajesh/">
                         <Image src="/assets/blog/icons/github-contact.png" className="hover:scale-110 transition ease-in-out" alt="github" width={30} height={30} />
                     </Link>
                 </div>
             </div>
-            <div className="flex flex-col justify-center gap-10 h-3/4">
+            <div className="flex flex-col justify-center gap-6 h-3/4">
+                <div className="flex justify-center">
+                    <Image src="/assets/blog/icons/customer-service.png" className="hover:scale-110 transition ease-in-out" alt="contact" width={80} height={80} />
+                </div>
                 <div className="flex flex-col gap-2">
                     <label htmlFor="text-input" className="font-bold">Name:</label>
                     <input type="text" id="text-input" className="border border-black border-2 h-10 rounded-md p-2 font-normal w-80" placeholder="Enter the name"/>
