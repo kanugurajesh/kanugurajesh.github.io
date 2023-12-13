@@ -46,7 +46,6 @@ export default function Contact() {
     }
 
     // create a function to handle the submit
-
     const handleSubmit = () => {
         if (validateForm()) {
             toast.success("Your message has been sent successfully")
@@ -92,7 +91,7 @@ export default function Contact() {
                     </Link>
                 </div>
             </div>
-            <div className="flex flex-col justify-center gap-6 h-3/4">
+            <div className="flex flex-col justify-center gap-7 h-3/4">
                 <div className="flex justify-center">
                     <Image src="/assets/blog/icons/customer-service.png" className="hover:scale-110 transition ease-in-out mb-2 mt-10" alt="contact" width={70} height={80} />
                 </div>
