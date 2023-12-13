@@ -27,13 +27,16 @@ export default function Contact() {
                 </div>
                 <div className="flex gap-10">
                     <Link href="https://www.instagram.com/kanugurajesh/">
-                        <Image src="/assets/blog/icons/linkedin-contact.png" alt="linkedin" width={30} height={30} />
+                        <Image src="/assets/blog/icons/linkedin-contact.png" className="hover:scale-110 transition ease-in-out" alt="linkedin" width={30} height={30} />
                     </Link>
                     <Link href="https://www.instagram.com/kanugurajesh/">
-                        <Image src="/assets/blog/icons/x.png" alt="X" width={30} height={30} />
+                        <Image src="/assets/blog/icons/twitter.png" className="hover:scale-110 transition ease-in-out" alt="X" width={30} height={30} />
                     </Link>
                     <Link href="https://www.instagram.com/kanugurajesh/">
-                        <Image src="/assets/blog/icons/github-contact.png" alt="github" width={30} height={30} />
+                        <Image src="/assets/blog/icons/instagram.png" className="hover:scale-110 transition ease-in-out" alt="github" width={30} height={30} />
+                    </Link>
+                    <Link href="https://www.instagram.com/kanugurajesh/">
+                        <Image src="/assets/blog/icons/github-contact.png" className="hover:scale-110 transition ease-in-out" alt="github" width={30} height={30} />
                     </Link>
                 </div>
             </div>
