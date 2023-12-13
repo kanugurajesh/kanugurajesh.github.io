@@ -98,20 +98,20 @@ export default function Contact() {
                 </div>
                 <div className="flex flex-col gap-2">
                     <label htmlFor="text-input" className="font-bold">Name:</label>
-                    <input type="text" id="text-input" className="border border-black border-2 h-10 rounded-md p-2 font-normal w-80 focus:ring focus:ring-blue-500/50 focus:ring-offset-2" placeholder="Enter the name" value={name} onChange={(e) => {
+                    <input type="text" id="text-input" className="border outline-0 border-1 h-10 rounded-md p-2 font-normal w-80 focus:border-blue-500 focus:border-2" placeholder="Enter the name" value={name} onChange={(e) => {
                         setName(e.target.value)
                     }}/>
                 </div>
                 <div className="flex flex-col gap-2">
                     <label htmlFor="email-input" className="font-bold">Email:</label>
-                    <input type="email" id="email-input" className="border border-black border-2 h-10 rounded-md p-2 font-normal w-80 focus:ring focus:ring-blue-500/50 focus:ring-offset-2" placeholder="Enter the email" value={email} onChange={(e) => {
+                    <input type="email" id="email-input" className="border outline-0 border-1 h-10 rounded-md p-2 font-normal w-80 focus:border-blue-500 focus:border-2" placeholder="Enter the email" value={email} onChange={(e) => {
                         setEmail(e.target.value)
                     }}/>
                 </div>
                 <div className="flex flex-col gap-2">
                     <label htmlFor="textarea-input" className="font-bold">Message:</label>
                     {/* @ts-ignore */}
-                    <textarea name="" placeholder="Enter the message" id="textarea-input" cols="30" rows="10" className="border border-black border-2 h-40 rounded-md p-2 font-normal w-80 focus:ring focus:ring-blue-500/50 focus:ring-offset-2" value={message} onChange={(e) => {
+                    <textarea name="" placeholder="Enter the message" id="textarea-input" cols="30" rows="10" className="border outline-0 border-1 h-40 rounded-md p-2 font-normal w-80 focus:border-blue-500 focus:border-2" value={message} onChange={(e) => {
                         setMessage(e.target.value)
                     }}>
                     </textarea>
