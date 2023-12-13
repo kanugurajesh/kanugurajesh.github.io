@@ -26,9 +26,15 @@ export default function Contact() {
                     </span>
                 </div>
                 <div className="flex gap-10">
-                    <Image src="/assets/blog/icons/linkedin-contact.png" alt="linkedin" width={30} height={30} />
-                    <Image src="/assets/blog/icons/x.png" alt="x" width={30} height={30} />
-                    <Image src="/assets/blog/icons/github-contact.png" alt="github" width={30} height={30} />
+                    <Link href="https://www.instagram.com/kanugurajesh/">
+                        <Image src="/assets/blog/icons/linkedin-contact.png" alt="linkedin" width={30} height={30} />
+                    </Link>
+                    <Link href="https://www.instagram.com/kanugurajesh/">
+                        <Image src="/assets/blog/icons/x.png" alt="X" width={30} height={30} />
+                    </Link>
+                    <Link href="https://www.instagram.com/kanugurajesh/">
+                        <Image src="/assets/blog/icons/github-contact.png" alt="github" width={30} height={30} />
+                    </Link>
                 </div>
             </div>
             <div>
