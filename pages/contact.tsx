@@ -23,10 +23,10 @@ export default function Contact() {
     }
 
     // create a function to validate the message
-    const validateMessage = (message: string) => {
-        const re = /^[a-zA-Z ]{2,30}$/
-        return re.test(message)
-    }
+    // const validateMessage = (message: string) => {
+    //     const re = /^[a-zA-Z ]{2,30}$/
+    //     return re.test(message)
+    // }
 
     // create a function to validate the form
 
@@ -39,10 +39,10 @@ export default function Contact() {
             toast.error("Please enter the valid email")
             return false
         }
-        if (!validateMessage(message)) {
-            toast.error("Please enter the valid message")
-            return false
-        }
+        // if (!validateMessage(message)) {
+        //     toast.error("Please enter the valid message")
+        //     return false
+        // }
         return true
     }
     
@@ -57,7 +57,7 @@ export default function Contact() {
 
             try {
 
-                const response = await emailjs.send("service_iklskkp","template_losae4n",{
+                const response = await emailjs.send(serviceId,templateId,{
                     from_name: name,
                     email_id: email,
                     message: message,
