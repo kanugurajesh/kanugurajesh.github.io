@@ -76,12 +76,12 @@ export default function Contact() {
     }
 
     return (
-        <div className="w-screen h-screen text-extrabold flex justify-around items-center">
+        <div className="w-screen h-screen text-extrabold flex flex-col lg:flex-row lg:justify-around sm:items-center">
             <Toaster />
-            <div className="flex flex-col justify-around gap-40 h-3/4">
+            <div className="flex flex-col lg:justify-around lg:gap-40 lg:h-3/4 sm:items-center sm:mb-20 lg:mb-0 sm:gap-20">
                 <div className="flex flex-col gap-5">
-                    <h1 className="text-5xl font-black">Contact us</h1>
-                    <p className="text-lg">Fill up the form and I will get back to you within 24 hours</p>
+                    <h1 className="text-5xl font-black sm:text-center">Contact us</h1>
+                    <p className="text-lg sm:w-80 sm:text-center">Fill up the form and I will get back to you within 24 hours</p>
                 </div>
                 <div className="flex flex-col gap-5">
                     <span className="flex gap-5 align-center">
