@@ -76,7 +76,7 @@ export default function Contact() {
     }
 
     return (
-        <div className="w-screen h-screen text-extrabold flex flex-col lg:flex-row lg:justify-around items-center overflow-x-hidden">
+        <div className="w-screen h-screen text-extrabold flex flex-col lg:flex-row lg:justify-around items-center overflow-x-hidden mt-10 lg:mt-0">
             <Toaster />
             <div className="flex flex-col lg:justify-around lg:gap-40 lg:h-3/4 items-center mb-20 lg:mb-0 gap-10">
                 <div className="flex flex-col gap-5">
@@ -140,7 +140,7 @@ export default function Contact() {
                 </div>
                 <div>
                     {/* @ts-ignore */}
-                    <button className="w-full font-bold bg-black hover:bg-white hover:text-black text-white px-5 py-3 rounded-md border border-2 transition ease-in-out" onClick={()=>handleSubmit()}>Send Message</button>
+                    <button className="w-full font-bold bg-black hover:bg-white hover:text-black text-white px-5 py-3 rounded-md border border-2 transition ease-in-out mb-10 lg:mb-0" onClick={()=>handleSubmit()}>Send Message</button>
                 </div>
             </div>
         </div>
