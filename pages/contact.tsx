@@ -66,10 +66,10 @@ export default function Contact() {
                 console.log(response)
 
                 if (response.status === 200) {
-                    toast.success("Message sent successfully")
+                    toast.success("Message sent successfully we will get back to you soon 😀")
                 }
             } catch (error) {
-                toast.error("Something went wrong")
+                toast.error("Something went wrong please try again later")
             }
             
         }
