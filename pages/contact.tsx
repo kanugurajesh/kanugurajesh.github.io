@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import toast, { Toaster } from "react-hot-toast"
 import { useState } from "react"
+import emailjs from "@emailjs/browser"
 
 export default function Contact() {
 
@@ -44,11 +45,33 @@ export default function Contact() {
         }
         return true
     }
-
-    // create a function to handle the submit
-    const handleSubmit = () => {
+    
+    const handleSubmit = async () => {
         if (validateForm()) {
-            toast.success("Your message has been sent successfully")
+
+            const serviceId = "service_iklskkp"
+            const templateId = "template_losae4n"
+            const publicId = "bN9dw3qOX4-VKS8A8"
+
+            emailjs.init(publicId);
+
+            try {
+
+                const response = await emailjs.send("service_iklskkp","template_losae4n",{
+                    from_name: name,
+                    email_id: email,
+                    message: message,
+                });
+
+                console.log(response)
+
+                if (response.status === 200) {
+                    toast.success("Message sent successfully")
+                }
+            } catch (error) {
+                toast.error("Something went wrong")
+            }
+            
         }
     }
 

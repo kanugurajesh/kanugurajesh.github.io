@@ -7,8 +7,10 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "classnames": "^2.3.1",
     "date-fns": "^2.28.0",
+    "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "^18.2.0",
